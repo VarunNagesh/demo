@@ -5,7 +5,7 @@ pipeline{
       stage('Hello'){
         steps{
           echo 'Hello World'
-          echo "VERSION: $ VERSION"
+          echo "VERSION: $VERSION"
           }
         }
         stage('Prepare build..'){
